@@ -34,10 +34,24 @@ END;
 - Use an `IF` statement to compare the values.
 - Display the greater number using `DBMS_OUTPUT.PUT_LINE`.
 
-**Expected Output:**  
-Greater number is: 80
+## Program
+```
+DECLARE
+   num1 NUMBER := 80;
+   num2 NUMBER := 52;
+BEGIN
+   IF num1 > num2 THEN
+      DBMS_OUTPUT.PUT_LINE('The greatest number is: ' || num1);
+   ELSIF num2 > num1 THEN
+      DBMS_OUTPUT.PUT_LINE('The greatest number is: ' || num2);
+   ELSE
+      DBMS_OUTPUT.PUT_LINE('Both numbers are equal.');
+   END IF;
+END;
+```
+## Expected Output
+<img width="829" height="161" alt="image" src="https://github.com/user-attachments/assets/1919dcc6-6338-426f-9175-a3e0a10d038e" />
 
----
 
 ## 2. Write a PL/SQL program to Calculate Sum of First N Natural Numbers
 
