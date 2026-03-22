@@ -49,7 +49,7 @@ BEGIN
    END IF;
 END;
 ```
-### Expected Output
+**Expected Output:**
 <img width="829" height="161" alt="image" src="https://github.com/user-attachments/assets/1919dcc6-6338-426f-9175-a3e0a10d038e" />
 
 
@@ -62,9 +62,7 @@ END;
 - Display the result using `DBMS_OUTPUT.PUT_LINE`.
 
 **Expected Output:**  
-Sum of first 10 natural numbers is: 55
 
----
 
 ## 3. Write a PL/SQL program to generate Fibonacci series
 
