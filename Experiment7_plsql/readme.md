@@ -34,7 +34,7 @@ END;
 - Use an `IF` statement to compare the values.
 - Display the greater number using `DBMS_OUTPUT.PUT_LINE`.
 
-## Program
+### Program
 ```
 DECLARE
    num1 NUMBER := 80;
@@ -49,7 +49,7 @@ BEGIN
    END IF;
 END;
 ```
-## Expected Output
+### Expected Output
 <img width="829" height="161" alt="image" src="https://github.com/user-attachments/assets/1919dcc6-6338-426f-9175-a3e0a10d038e" />
 
 
