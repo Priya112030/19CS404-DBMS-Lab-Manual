@@ -33,7 +33,6 @@ END;
 - Declare two numeric variables and initialize them.
 - Use an `IF` statement to compare the values.
 - Display the greater number using `DBMS_OUTPUT.PUT_LINE`.
-
 ### Program:
 ```
 DECLARE
@@ -49,10 +48,12 @@ BEGIN
    END IF;
 END;
 ```
-**Expected Output:**
+**Expected Output:**  
 
-<img width="829" height="161" alt="image" src="https://github.com/user-attachments/assets/1919dcc6-6338-426f-9175-a3e0a10d038e" />
+<img width="783" height="155" alt="image" src="https://github.com/user-attachments/assets/f36ccf7e-22ca-4786-a151-09e713f3b6b1" />
 
+
+---
 
 ## 2. Write a PL/SQL program to Calculate Sum of First N Natural Numbers
 
@@ -61,7 +62,6 @@ END;
 - Initialize a `sum` variable to 0.
 - Use a `WHILE` loop to iterate from 1 to `n`, adding each number to the sum.
 - Display the result using `DBMS_OUTPUT.PUT_LINE`.
-
 ### Program:
 ```
 DECLARE
@@ -80,7 +80,9 @@ END;
 ```
 **Expected Output:**  
 
-<img width="611" height="147" alt="image" src="https://github.com/user-attachments/assets/0c86b517-62a6-4932-8f11-f84ed5100990" />
+<img width="551" height="142" alt="image" src="https://github.com/user-attachments/assets/42cde788-2295-4599-98aa-9328954e1ab7" />
+
+---
 
 ## 3. Write a PL/SQL program to generate Fibonacci series
 
@@ -89,7 +91,6 @@ END;
 - Initialize the first two Fibonacci numbers (0 and 1).
 - Use a loop to generate the next terms using the formula `c = a + b`.
 - Print each term in the series.
-
 ### Program:
 ```
 DECLARE
@@ -117,7 +118,9 @@ END;
 ```
 **Expected Output:**  
 
-<img width="613" height="156" alt="image" src="https://github.com/user-attachments/assets/8081258c-97b0-46ad-8569-0eb3b00d020f" />
+<img width="547" height="142" alt="image" src="https://github.com/user-attachments/assets/44bb9c86-d464-47f1-9205-caa1fbae7023" />
+
+---
 
 ## 4. Write a PL/SQL Program to display the number in Reverse Order
 
@@ -125,7 +128,6 @@ END;
 - Declare a variable `n` and assign a value (e.g., 1535).
 - Use a loop to extract each digit using modulo and reverse the number.
 - Display the reversed number.
-
 ### Program:
 ```
 DECLARE
@@ -146,9 +148,12 @@ BEGIN
    DBMS_OUTPUT.PUT_LINE('Reversed number is ' || reversed_n);
 END;
 ```
+
 **Expected Output:**  
 
-<img width="616" height="171" alt="image" src="https://github.com/user-attachments/assets/b2fe2001-c1d5-4ab4-83f0-a1eedc2b656e" />
+<img width="552" height="156" alt="image" src="https://github.com/user-attachments/assets/5487a0df-7960-4aa3-b0e9-014d353f0f5b" />
+
+---
 
 ## 5. Write a PL/SQL program to find the largest of three numbers
 
@@ -156,7 +161,6 @@ END;
 - Declare three numeric variables `a`, `b`, and `c`.
 - Use nested `IF-ELSIF-ELSE` conditions to find the largest among the three.
 - Display the largest number.
-
 ### Program:
 ```
 
@@ -180,7 +184,8 @@ END;
 ```
 **Expected Output:**  
 
-<img width="603" height="158" alt="image" src="https://github.com/user-attachments/assets/76bc421d-d151-4bab-877e-02045504cc58" />
+<img width="541" height="147" alt="image" src="https://github.com/user-attachments/assets/03887309-645e-42d8-a7e5-e874e047a37c" />
+
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
